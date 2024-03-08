@@ -1,0 +1,14 @@
+<apex:page showHeader="false" sidebar="false" standardStylesheets="false">
+    <html>
+        <body>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>My Visualforce Template</h1>
+                        <p>This is my first Visualforce template.</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </html>
+</apex:page>

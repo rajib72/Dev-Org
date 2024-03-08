@@ -1,0 +1,10 @@
+<template>
+    <lightning-input label="Enter first number" name="number1" onchange={handleChange}></lightning-input>
+    <lightning-input label="Enter second number" name="number2" onchange={handleChange}></lightning-input>
+    <lightning-button label="Add" variant="brand" onclick={doAdd}></lightning-button>
+    <lightning-button label="Sub" variant="brand" onclick={doSub}></lightning-button>
+    <lightning-button label="Mul" variant="brand" onclick={doMul}></lightning-button>
+    <lightning-button label="Div" variant="brand" onclick={doDiv}></lightning-button>
+    <br>
+    Result is : {result}
+</template>
