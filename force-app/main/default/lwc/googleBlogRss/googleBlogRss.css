@@ -1,0 +1,29 @@
+.container{
+    /* width: 250px; */
+    height: 600px;
+}
+.items{
+    display: flex;
+    background-color: white;
+    margin: 10px;
+    transition: .5s;
+}
+.items img{
+    display: block;
+    width: 140px;
+    height: 120px;
+}
+.items > .title{
+    text-decoration: none;
+    margin: 10px;
+    /* font-size: 1rem; */
+    font-weight: 700;
+}
+.items a{
+    font-size: .9rem;
+}
+.items:hover{
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    transform:scale(1.1);
+    z-index: 2;
+}

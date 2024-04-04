@@ -1,0 +1,19 @@
+<template>
+    <div class="slds-scrollable_y slds-m-around_xxx-small" style="border-radius: 5px;">
+    <!-- <lightning-card title="News"> -->
+      <template if:true={news}>
+        <div class="container">
+          <template for:each={news} for:item="newsItem">
+              <div key={newsItem.title} class="items">
+                  <img src='https://www.enerpac.com/ccstore/v1/images/?source=/file/v5463572226548409963/products/newEventEN3.png' alt={newsItem.title} />
+                  <a href={newsItem.link} target="_blank" class="title">{newsItem.title}</a>
+              </div>
+          </template>
+        </div>
+      </template>
+      <template if:false={news}>
+          <p>No news available.</p>
+      </template>
+  <!-- </lightning-card> -->
+  </div>
+  </template>
